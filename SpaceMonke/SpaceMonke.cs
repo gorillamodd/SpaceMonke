@@ -12,7 +12,9 @@ namespace SpaceMonke
     [BepInDependency("org.legoandmars.gorillatag.utilla", "1.3.0")]
     public class SpaceMonke : BaseUnityPlugin
     {
-        public static bool allowSpaceMonke = false;
+    
+        public static bool allowSpaceMonke = true:
+        
         public static ConfigEntry<float> multiplier;
         void Awake()
         {
